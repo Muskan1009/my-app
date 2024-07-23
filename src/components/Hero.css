@@ -1,0 +1,53 @@
+.hero-container {
+    position: relative;
+    padding: 50px;
+    text-align: left;
+  }
+  
+  .hero-text {
+    position: absolute;
+    width: 600px;
+    height: 169px;
+    left: 49px;
+    top: 113px;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 145px;
+    line-height: 62px;
+    text-transform: uppercase;
+    color: white; /* Default color */
+  }
+  
+  .description-text {
+    position: absolute;
+    width: 312px;
+    height: 77px;
+    left: 49px;
+    top: 317px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    color: #FFFFFF;
+  }
+  
+  .hero-image {
+      position: absolute;
+      top:217px;
+      right: 0;
+      width: 500px;
+      height: auto;
+  }
+  
+  .hero-buttons {
+    position: absolute;
+    left: 49px;
+    top: 420px;
+  }
+  
+  .hero-buttons button {
+    margin-right: 10px;
+  }
+  
