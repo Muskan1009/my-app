@@ -12,7 +12,7 @@ const Hero = () => {
           <Typography variant='h2' className="hero-text"  style={{ fontWeight: 'bold' }}>
             <span style={{ color: '#8A6FF2' }}>SECURELY</span> Store Your Files, with FlickFile
           </Typography>
-          <Typography variant="body1" className="description-text">
+          <Typography variant="body1" className="description-text" style={{ top: '150px' }}>
             FlickerFile is your ultimate decentralized storage solution, offering unmatched security, privacy, and accessibility for all your digital assets.
           </Typography>
         </div>

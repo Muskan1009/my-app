@@ -12,7 +12,7 @@
   top: -20vh;
   background: radial-gradient(50% 50% at 50% 50%, #453B6E 5.27%, #1d1d1d 84.98%);
   opacity: 0.67;
-  filter: blur(53.3px);
+  filter: blur(3.3px);
   transform: scale(2.0);
   z-index: -1;
 }
@@ -32,14 +32,14 @@
 
 .description-text {
   position: absolute;
-  max-width: 80%;
+  max-width: 100%;
   left: 5%;
   top: 40%;
   font-family: 'Poppins';
   font-weight: 400;
   font-size: 3vw;
   line-height: 1.5;
-  color: #FFFFFF;
+  color: #cccccc;
 }
 
 .hero-image {
