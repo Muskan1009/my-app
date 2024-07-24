@@ -1,53 +1,101 @@
 .hero-container {
-    position: relative;
-    padding: 50px;
-    text-align: left;
+  position: relative;
+  padding: 50px;
+  text-align: left;
+}
+
+.ellipse {
+  position: absolute;
+  width: 60vw; 
+  height: 60vh; 
+  left: -20vw; 
+  top: -20vh;
+  background: radial-gradient(50% 50% at 50% 50%, #453B6E 5.27%, #1d1d1d 84.98%);
+  opacity: 0.67;
+  filter: blur(53.3px);
+  transform: scale(2.0);
+  z-index: -1;
+}
+
+.hero-text {
+  position: absolute;
+  max-width: 80%;
+  left: 5%;
+  top: 20%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 6vw;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: white;
+}
+
+.description-text {
+  position: absolute;
+  max-width: 80%;
+  left: 5%;
+  top: 40%;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 3vw;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+.hero-image {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  width: 40vw;
+  height: auto;
+}
+
+.hero-buttons {
+  position: absolute;
+  left: 5%; 
+  top: 60%; 
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-buttons button {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    padding: 50px; 
   }
-  
+
   .hero-text {
-    position: absolute;
-    width: 600px;
-    height: 169px;
+    font-size: 145px;
     left: 49px;
     top: 113px;
-    font-family: 'Poppins', sans-serif;
-    font-style: bold;
-    font-weight: 700;
-    font-size: 145px;
-    line-height: 62px;
-    text-transform: uppercase;
-    color: white; /* Default color */
+    max-width: 600px; 
   }
-  
+
   .description-text {
-    position: absolute;
-    width: 312px;
-    height: 77px;
-    left: 49px;
+    font-size: 11px; 
+    left: 49px; 
     top: 317px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 16px;
-    color: #FFFFFF;
+    max-width: 312px;
   }
-  
+
   .hero-image {
-      position: absolute;
-      top:217px;
-      right: 0;
-      width: 500px;
-      height: auto;
+    width: 500px;
+    top: 217px;
+    right: 0;
   }
-  
+
   .hero-buttons {
-    position: absolute;
-    left: 49px;
+    left: 49px; 
     top: 420px;
+    flex-direction: row;
   }
-  
+
   .hero-buttons button {
+    width: auto; 
     margin-right: 10px;
   }
-  
+}

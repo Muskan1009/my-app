@@ -6,12 +6,12 @@ import heroimage from '../assets/heroimage.svg';
 const Hero = () => {
   return (
     <div className="hero-container">
+      <div className="ellipse"></div>
       <div className="hero-content">
         <div className="text-content">
-          <Typography variant='h2' className="hero-text">
+          <Typography variant='h2' className="hero-text"  style={{ fontWeight: 'bold' }}>
             <span style={{ color: '#8A6FF2' }}>SECURELY</span> Store Your Files, with FlickFile
           </Typography>
-
           <Typography variant="body1" className="description-text">
             FlickerFile is your ultimate decentralized storage solution, offering unmatched security, privacy, and accessibility for all your digital assets.
           </Typography>
@@ -19,7 +19,7 @@ const Hero = () => {
         <img 
           src={heroimage} 
           alt="Hero" 
-          style={{ width: '600px', height: 'auto', position: 'absolute', top: '200px', right: '100px' }} 
+          style={{ width: '700px', height: 'auto', position: 'absolute', top: '200px', right: '100px' }} 
         />
       </div>
       <div className="hero-buttons">
